@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
+    display: block;
+    margin: 0px;
 }
 
 .header {
@@ -10,6 +12,8 @@ body {
     font-size: 24px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
 }
 
 a {
@@ -17,30 +21,40 @@ a {
   color: #f9faf8;
 }
 
-/*img {
-    width: 200px;
-    height: 200px;
-}*/
-
 .image {
     width: 200px;
     height: 200px;
+    border: 4px;
+    border-color: #3882f6;
 }
 
 ul {
     list-style-type: none;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    gap: 8px;
 }
 
 .intro {
+    display: flex;
     background: #1f2937;
-    height: 200px;
-
+    height: 250px;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    padding: 0px 100px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    margin-bottom: auto;
+}
+
+.site-image {
+    width: 400px;
+    height: 200px;
 }
 
 .dedo {
@@ -60,13 +74,23 @@ ul {
     
 }
 
+.information-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .image-blocks {
     gap: 8px;
     justify-content: center;
 }
 
 .text-blocks {
-    gap: 16px;
+    gap: 8px;
     justify-content: center;
 }
 
@@ -74,6 +98,35 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-quote {
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    align-items: flex-end;
+    font-weight: 600;
+}
+
+.registration {
+    display: flex;
+    margin: 50px 100px;
+    background-color: #3882f6;
 }
 
 .footer {
@@ -83,5 +136,5 @@ ul {
     color: #f9faf8;
     background: #1f2937;
     height: 48px;
-
+    margin-top: auto;
 }
