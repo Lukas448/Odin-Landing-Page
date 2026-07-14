@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
+    height: 100vh;
     font-family: Roboto, sans-serif;
     display: block;
     margin: 0px;
@@ -24,8 +27,8 @@ a {
 .image {
     width: 200px;
     height: 200px;
-    border: 4px;
-    border-color: #3882f6;
+    border: solid #3882f6;
+    border-radius: 12px;
 }
 
 ul {
@@ -66,6 +69,18 @@ ul {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.sign-up {
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    color: #e5e7eb;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 8px;
 }
 
 .image-blocks, .text-blocks {
@@ -127,8 +142,37 @@ ul {
     display: flex;
     margin: 50px 100px;
     background-color: #3882f6;
+    justify-content: space-between;
+    padding: 50px 100px;
 }
 
+.rtext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registration-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #e5e7eb;
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
+}
+
+.title, .promo {
+    color: #e5e7eb;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.promo {
+    font-size: 18px;
+}
 .footer {
     display: flex;
     justify-content: center;
